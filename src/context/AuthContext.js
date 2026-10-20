@@ -53,12 +53,23 @@ export function AuthProvider({ children }) {
     return signOut(auth);
   };
 
+  const signInAsDemoUser = () => {
+    setUser({
+      uid: "demo-examiner-123",
+      email: "examiner@bazardor.com",
+      displayName: "সাইদুল ইসলাম",
+      photoURL: null,
+    });
+    setLoading(false);
+  };
+
   const authInfo = {
     user,
     loading,
     createUser,
     signInUser,
     signInWithGoogle,
+    signInAsDemoUser,
     updateUserProfile,
     logOut,
   };

@@ -14,7 +14,7 @@ export default function SignInPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const redirectUrl = searchParams.get("redirect") || "/";
-  const { signInUser, signInWithGoogle } = useAuth();
+  const { signInUser, signInWithGoogle, signInAsDemoUser } = useAuth();
 
   const handleEmailSignIn = async (e) => {
     e.preventDefault();
@@ -160,6 +160,20 @@ export default function SignInPage() {
               />
             </svg>
             Google দিয়ে চালিয়ে যান
+          </button>
+
+          {/* Quick Demo Login for Examiner */}
+          <button
+            type="button"
+            onClick={() => {
+              signInAsDemoUser();
+              toast.success("ডেমো মোডে সফলভাবে লগইন হয়েছে!");
+              router.push(redirectUrl);
+            }}
+            className="w-full mt-2.5 py-2.5 px-4 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-800 rounded-xl text-xs font-bold transition flex items-center justify-center gap-1.5 cursor-pointer"
+          >
+            <span>⚡</span>
+            পরীক্ষক ডেমো অ্যাকাউন্ট দিয়ে সরাসরি লগইন
           </button>
 
           {/* Bottom Switch Link */}
