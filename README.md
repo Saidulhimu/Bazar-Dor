@@ -12,7 +12,7 @@
 
 ## 🚀 গুরুত্বপূর্ণ লিংক (Important Links)
 
-- **🌐 Live Deployment Link:** [https://bazar-dor.vercel.app](https://bazar-dor.vercel.app) *(আপনার ডেপ্লয়মেন্টের পর লিংক আপডেট করুন)*
+- **🌐 Live Deployment Link:** [https://bazar-dor-lac.vercel.app](https://bazar-dor-lac.vercel.app)
 - **📂 GitHub Repository:** [https://github.com/Saidulhimu/Bazar-Dor](https://github.com/Saidulhimu/Bazar-Dor)
 
 ---
