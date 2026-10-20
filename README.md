@@ -29,12 +29,11 @@
 
 ## ✨ Key Features
 
- ১. 🔴 Live Infinite Price Marquee
- ২. Section A & Section B
- ৩. Challenge C1 - Numeric Price Sorting
- ৪. Market-wise Price Breakdown
- ৫. Protected Routes & Auth
- ৬. 100% Responsive with DaisyUI
+** ১.  Live Infinite Price Marquee **
+** ২. Numeric Price Sorting **
+** ৪. Market-wise Price Breakdown **
+** ৫. Protected Routes & Auth **
+** ৬. 100% Responsive with DaisyUI **
 
 
 
