@@ -143,13 +143,13 @@ npm install
 ### ৩. এনভায়রনমেন্ট ভ্যারিয়েবল সেটআপ করুন:
 রুট ডিরেক্টরিতে একটি `.env.local` ফাইল তৈরি করুন এবং নিচের মানগুলো যুক্ত করুন:
 ```env
-NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyCK16a2yBSlQ0Q6wEIqKfHsdWuxn3w6pbU
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=bazar-dor-5a377.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=bazar-dor-5a377
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=bazar-dor-5a377.firebasestorage.app
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=699594153802
-NEXT_PUBLIC_FIREBASE_APP_ID=1:699594153802:web:b170792d7deb6da8ca6bb3
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=699594153802-vcstcvhnm723e6m2sl1k20oehfrtmvu3.apps.googleusercontent.com
+NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id
 ```
 
 ### ৪. ডেভেলপমেন্ট সার্ভার চালু করুন:
